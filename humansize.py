@@ -1,7 +1,7 @@
 suffixes= ['KB','MB','GB','TB','PB','EB','ZB','YB']
 
 
-def approximate_size(size):
+def approximate_size(size = 10000):
     """Convert a file size to human-readable form."""
     if size <0:
         raise ValueError ('number must be non-negative')
